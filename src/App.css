@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+.titleHeader{
+    color: brown;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Navbar customization */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2e7e7b9;
+  color: #fff;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+/* Calculator styles */
+
+.calculatorContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.calculatorHeader {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.resultText {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  margin: 20px auto;
+  display: block;
+  padding: 10px;
+  font-size: 1em;
+}
+
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
