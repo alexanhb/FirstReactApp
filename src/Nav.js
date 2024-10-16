@@ -12,6 +12,8 @@ import PlayInvincible from "./PlayInvincible";
 import SimpleCalculator from "./SimpleCalculator";
 import ListComponent from "./ListComponent";
 import ControlledFormComponent from "./ControlledFormComponent";
+import TaskFormOutput from "./ToDoForm";
+import DataFetchingWithHooks from "./DataFetchingWithHooks";
 import {Routes, Route, Link} from 'react-router-dom';
 
 function Nav(){
@@ -36,6 +38,8 @@ function Nav(){
                 <Link to="/simple-calculator">Simple Calculator</Link>
                 <Link to="/list-component">List Component</Link>
                 <Link to="/controlled-form-component">Controlled Form Component</Link>
+                <Link to="/addTask">Add Task (Todo form)</Link>
+                <Link to="/data-fetching-with-hooks">Data Fetching With Hooks</Link>
             </nav>
 
             <Routes>
@@ -56,6 +60,8 @@ function Nav(){
                 <Route path="/simple-calculator" element={<SimpleCalculator />} />
                 <Route path="/list-component" element={<ListComponent />} />
                 <Route path="/controlled-form-component" element={<ControlledFormComponent />} />
+                <Route path="/addTask" element={<TaskFormOutput />} />
+                <Route path="/data-fetching-with-hooks" element={<DataFetchingWithHooks />} />
             </Routes>
         </div>
     )

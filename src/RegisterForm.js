@@ -3,9 +3,9 @@ import './App.css';
 
 export default function RegisterForm(){
     const [form, setForm] = useState({
-        firstName: 'Alexander',
-        lastName: 'Hanch Bjerke',
-        email: 'alexanderhbjerke@gmail.com',
+        firstName: '',
+        lastName: '',
+        email: '',
     });
 
     return(
